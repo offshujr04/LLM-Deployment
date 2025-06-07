@@ -6,7 +6,6 @@ api_key = st.secrets["API_KEY"]
 genai.configure(api_key=api_key) 
 
 model = genai.GenerativeModel('gemini-1.5-flash')
-
 st.set_page_config(
     page_title="AI Chatbot",
     layout="centered"   
